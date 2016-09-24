@@ -1,0 +1,30 @@
+{
+  "name": "tmjs-promise",
+  "version": "1.0.0-alpha.1",
+  "description": "TM.js Promise adds promise based tools",
+  "main": "build/tmjs-promise.js",
+  "scripts": {
+    "build": "bin/build",
+    "publish": "bin/publish",
+    "install": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teammion/tmjs-promise.git"
+  },
+  "keywords": [
+    "tmjs-promise",
+    "tmjs",
+    "promise",
+    "tm.js"
+  ],
+  "author": "Stefan Wimmer <stefanwimmer128@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teammion/tmjs-promise/issues"
+  },
+  "homepage": "https://github.com/teammion/tmjs-promise#readme",
+  "dependencies": {
+    "tmjs-core": "github:teammion/tmjs-core"
+  }
+}
